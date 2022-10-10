@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-center{
-  font-family: 'Josefin Slab', sans-serif;
+  font-family: 'Josefin Slab', 'Quicksand' ;
   font-size: 1.5rem;
 }
 
