@@ -1,11 +1,19 @@
 body {
-  font-family: "Quicksand",sans-serif;
+  font-family: "Aloja",sans-serif;
   color: #0d1137;
-  background-color: #b6e3fc;
+ /*  background-color: #b6e3fc;
   background-position: center;
   background-repeat: repeat-y;
-  background-size:contain;
+  background-size:contain; */
+  background-size: contain;
+  background-image: url('../img/choco.png');
 }
+
+@font-face {
+  font-family: 'Aloja'; /* Give your font a name */
+  src: url('./Aloja-extended.otf') format('opentype');
+}
+
 
 
 
@@ -20,7 +28,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Satisfy", sans-serif;
+  font-family: "Aloja", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -53,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-center{
-  font-family: "Josefin Slab" , "Quicksand" ;
+  font-family: "Aloja" ,"Josefin Slab" , "Quicksand" ;
   font-size: 1.5rem;
 }
 
@@ -79,7 +87,7 @@ section {
   margin: 15px 0 0 0;
   font-size: 32px;
   font-weight: 700;
-  color: #b6e3fc;
+  color: #95D2E2;
 }
 .section-title h2 span {
   color: #57605b;
@@ -121,7 +129,7 @@ section {
   border-radius: 50px;
 }
 .menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
-  color: #b6e3fc;
+  color: #95D2E2;
   background: #0d1137;
 }
 .menu #menu-flters li:last-child {
@@ -177,7 +185,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #b6e3fc;
+  
   color: #0d1137;
   font-size: 14px;
   text-align: center;
@@ -203,7 +211,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #b6e3fc;
+  background: #95D2E2;
   color: #0d1137;
   line-height: 1;
   padding: 8px 0;
